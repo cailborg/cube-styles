@@ -1,0 +1,58 @@
+/* Could replace these with an out-of-the-box solution like tailwind: https://tailwindcss.com/ */
+
+.bg-primary {
+  background-color: var(--lq-colors-primary);
+}
+
+.bg-secondary {
+  background-color: var(--lq-colors-secondary);
+}
+
+.bg-neutral-100 {
+  background-color: var(--lq-colors-neutral-100);
+}
+
+.p-48 {
+  padding: var(--lq-space-jumbo);
+}
+
+.py-16 {
+  padding: var(--lq-space-md);
+}
+
+.px-8 {
+  padding: var(--lq-space-xs);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.gap-24 {
+  gap: var(--lq-space-lg);
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-min {
+  width: min-content;
+}
+
+.w-auto {
+  width: auto;
+}
+.w-1\/2 {
+  width: 50%;
+}

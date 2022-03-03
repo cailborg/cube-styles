@@ -1,0 +1,13 @@
+/* Based on CubeCSS methodology: https://cube.fyi/ */
+
+/* Block level styles go here */
+/* This would be much more concise by using SCSS as a dev dependency*/
+
+.lq-button[data-variant='primary'] {
+    background-color: var(--lq-colors-primary);
+    color: var(--lq-colors-lightText);
+}
+.lq-button[data-variant='secondary'] {
+    background-color: var(--lq-colors-neutral-50);
+    color: var(--lq-colors-primary);
+}
