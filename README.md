@@ -14,3 +14,7 @@ This will give us all the utility classes we might need out of the box, and is c
 ### Use SCSS for writing block and exception level classes
 This will allow us to nest classes for a more readable dev experience
 [https://sass-lang.com/](https://sass-lang.com/)
+
+## To run
+- `yarn install` or `npm install`
+- `yarn start` to spin up the live-server
