@@ -1,0 +1,45 @@
+.flow > * + * {
+  margin-top: var(--flow-space, 1rem);
+}
+
+.wrapper {
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 var(--lq-space-xs);
+  }
+
+  
+.splitter > :last-child {
+  margin-top: var(--lq-space-xs);
+}
+
+@media (min-width: 48em) {
+  .splitter {
+    display: flex;
+  }
+  .splitter > * {
+    flex-grow: 1;
+  }
+  
+  .splitter > :last-child {
+    margin-top: 0;
+    margin-left: var(--lq-space-xs);
+    min-width: 22rem;
+  }
+}
+
+/* This class would be removed if using Tailwind: https://tailwindcss.com/docs/screen-readers#screen-reader-only-elements */
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
+  

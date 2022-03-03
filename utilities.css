@@ -12,6 +12,10 @@
   background-color: var(--lq-colors-neutral-100);
 }
 
+.bg-neutral-300 {
+    background-color: var(--lq-colors-neutral-300);
+  }
+
 .p-48 {
   padding: var(--lq-space-jumbo);
 }
